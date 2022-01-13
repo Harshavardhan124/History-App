@@ -21,7 +21,12 @@ class HistoryItems extends Component {
           <p className="title-para">{historyDetails.title}</p>
           <p className="url-para">{historyDetails.domainUrl}</p>
         </div>
-        <button type="button" className="button" id="delete" onClick={onDelete}>
+        <button
+          type="button"
+          className="button"
+          testid="delete"
+          onClick={onDelete}
+        >
           <img
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
             alt="delete"
