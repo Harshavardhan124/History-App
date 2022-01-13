@@ -1,0 +1,62 @@
+.history-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.timeLogo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-family: 'roboto';
+  font-size: 14px;
+  margin-right: 50px;
+  margin-left: 10px;
+  font-weight: 450;
+  color: #475569;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.title-para {
+  font-family: 'roboto';
+  font-size: 14px;
+  margin-left: 20px;
+  font-weight: 450;
+  color: #475569;
+}
+
+.url-para {
+  font-family: 'roboto';
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: 400;
+  color: #64748b;
+}
+.button {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #594d6d;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 12px;
+  margin-left: 12px;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+}
+.delete-img {
+  width: 20px;
+  height: 20px;
+}
